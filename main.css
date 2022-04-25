@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+     background-color: #2c3e50;
+     width: 100%;
+     height: 100px;
+     padding-top: 30px;
+}
+nav{
+    width: 83;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+}
+header .logo a{
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-list{
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+}
+.nav-list ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-list ul li a{
+    font-size: 18px;
+    font-weight: 600;
+}
+main .first-page{
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+}
+main .first-page .image1{
+    width: 25%;
+    height: 40%;
+    top:100px;
+    left: 700px;
+    position:relative;
+}
+main .first-page .text{
+    top:250px;
+    left: 100px;
+    color: white;
+    position:relative;
+}
+main .second-page{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .second-page .text1{
+    display:flex ;
+    gap: 40px;
+
+}
+
+main .third-page{
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+main .fourth-page{
+    width: 100%;
+    height: 500px;
+
+}
+main .fourth-page .text4{
+    top: 50px;
+    left: 35%;
+    position:relative;
+}
+main .fourth-page .square1{
+    width: 200px;
+    height: 300px;
+    background-color: whitesmoke;
+    top: 120px;
+    left:100px;
+    position:relative;
+}
+main .fourth-page .square2{
+    width: 200px;
+    height: 300px;
+    background-color: whitesmoke;
+    top:-195px;
+    left:400px;
+    position:relative;
+}
+main .fourth-page .square3{
+    width: 200px;
+    height: 300px;
+    background-color: whitesmoke;
+    top:-510px;
+    left:700px;
+    position:relative;
+}
+main .fiveth-page{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(14, 14, 153);
+}
+main .sixth-page{
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+}
+main .sixth-page h1{
+    color: grey;
+}
+main .sixth-page h3{
+    color: blue;
+}
+main .sixth-page .square4{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    top: 400px;
+    position:relative;
+}
+main .sixth-page .square4 h2{
+    color: blue;
+}
+main .sixth-page .square5{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    top: 200px;
+    left:500px;
+    position:relative;
+}
+main .sixth-page .square5 h2{
+    color: purple;
+}
+main .sixth-page .square4 h3{
+    color: grey;
+    padding-bottom: 150px;
+}
+main .sixth-page .square5 h3{
+    color: grey;
+}
+main .third-page .image2 img{
+    width: 40%;
+    height: 400px;
+    top: 150px;
+    position: relative;
+}
+main .third-page .image2{
+
+    transform: rotateX(25deg) rotateY(25deg);
+}
+main .third-page .text25{
+    left: 50%;
+    bottom: 400px;
+    position: relative;
+}
+main .third-page .text25 h2{
+    color: grey;
+}
+main .third-page .text26{
+    left: 50%;
+    bottom: 350px;
+    position: relative;
+}
+main .third-page .text26 h3{
+    color: grey;
+}
+main .third-page .text27{
+    left: 50%;
+    bottom: 300px;
+    position: relative;
+}
+main .third-page .text27 h3{
+    color: grey;
+}
+main .third-page .text28{
+    left: 75%;
+    bottom: 590px;
+    position: relative;
+}
+main .third-page .text28 h3{
+    color: grey;
+}
+main .third-page .text29{
+    left: 75%;
+    bottom: 540px;
+    position: relative;
+}
+main .third-page .text29 h3{
+    color: grey;
+}
+main .sixth-page .square4 .text20{
+    bottom: 130px;
+    position:relative ;
+}
+main .fiveth-page h2{
+    color: white;
+}
+main .fiveth-page h3{
+    color: grey;
+}
+
+main .fiveth-page button{
+    left: 45%;
+    top: 300px;
+    position: relative;
+    background-color: green;
+}
+main .sixth-page .button1{
+    left: 80%;
+    top: 200px;
+    position:relative;
+    background-color: white;
+}
+main .sixth-page .button2{
+    left: 80%;
+    top: 200px;
+    position:relative;
+    background-color: white;
+}
